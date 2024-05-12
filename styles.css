@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  .nav-container {
+    display:flex;
+    justify-content: center;
+  }
+
+  nav {
+    margin-top: -70px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #053883;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav a:hover {
+    color: #007bff;
+    border-bottom-color: #007bff;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+  }
+
+  .contact-btn:hover {
+    background-color: #0056b3;
+  }
+
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Profile section styles */
+  #profile p {
+    margin-bottom: 5px;
+  }
+
+  #profile strong {
+    font-weight: bold;
+    color: #000;
+  }
+
+  #profile span {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+
+  /* Logo styles */
+  .logo {
+    text-align: center;
+  }
